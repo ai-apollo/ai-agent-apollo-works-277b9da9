@@ -8,7 +8,8 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
-              <span className="block">AIで、あなたの</span>
+              <span className="block">AIで、</span>
+              <span className="block">あなたの</span>
               <span className="text-apollo-primary block">「面倒」</span>
               <span className="block">を自動化します。</span>
             </h1>
@@ -35,7 +36,7 @@ export default function Hero() {
           <div className="md:w-1/2 flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
               <img 
-                src="/lovable-uploads/eab2400a-ce63-4d65-b21a-6df41e287dad.png" 
+                src="/lovable-uploads/photo-1582562124811-c09040d0a901.jpeg" 
                 alt="あぽろ" 
                 className="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl z-10 transition-all duration-300 hover:scale-105"
               />
@@ -53,3 +54,4 @@ export default function Hero() {
     </section>
   );
 }
+
