@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="md:w-1/2 flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
               <img 
-                src="/lovable-uploads/photo-1582562124811-c09040d0a901.jpeg" 
+                src="/lovable-uploads/edb915ba-c310-422e-b583-293b0ec72539.png" 
                 alt="あぽろ" 
                 className="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl z-10 transition-all duration-300 hover:scale-105"
               />
