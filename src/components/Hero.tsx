@@ -8,15 +8,14 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
-              <span className="block">AIで、</span>
+              <span className="block text-3xl">AIで、</span>
               <span className="block">あなたの</span>
-              <span className="text-apollo-primary block">「面倒」</span>
+              <span className="text-apollo-primary block text-5xl">「面倒」</span>
               <span className="block">を自動化します。</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
               吸って吐いたら<span className="highlight-text">コンテンツまで</span>に取り組む 
-              非エンジニア | 開発初心者でも<span className="highlight-text">エージェントで完全自動化</span>めざす | 
-              「AIの社」を運営｜「生成AIを学ぶなら漫画から」出版
+              非エンジニア | 開発初心者のAI自動化支援
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
@@ -36,7 +35,7 @@ export default function Hero() {
           <div className="md:w-1/2 flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
               <img 
-                src="/lovable-uploads/edb915ba-c310-422e-b583-293b0ec72539.png" 
+                src="/lovable-uploads/fea51f18-be34-4662-b5bc-87262bbc54d8.png" 
                 alt="あぽろ" 
                 className="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl z-10 transition-all duration-300 hover:scale-105"
               />
@@ -54,4 +53,3 @@ export default function Hero() {
     </section>
   );
 }
-
