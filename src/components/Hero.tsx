@@ -7,13 +7,16 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
-              <span className="block text-2xl sm:text-3xl md:text-4xl">吸って吐いたら</span>
-              <span className="text-apollo-primary block">コンテンツまで</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
+              <span className="block">AIで、</span>
+              <span className="block">あなたの</span>
+              <span className="text-apollo-primary block">「面倒」</span>
+              <span className="block">を自動化します。</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl tracking-wider leading-relaxed">
-              クリエイティブな自動化で、あなたのアイデアを瞬時に現実に。
-              効率と創造性の融合、新しい価値の創造へ。
+            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
+              吸って吐いたら<span className="highlight-text">コンテンツまで</span>に取り組む 
+              非エンジニア | 開発初心者でも<span className="highlight-text">エージェントで完全自動化</span>めざす | 
+              「AIの社」を運営｜「生成AIを学ぶなら漫画から」出版
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
@@ -32,21 +35,12 @@ export default function Hero() {
           </div>
           <div className="md:w-1/2 flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
-              <div className="absolute inset-0 w-full h-full bg-apollo-primary rounded-full transform translate-x-4 translate-y-4 opacity-50"></div>
-              <div className="relative z-10 w-full h-full flex items-center justify-center">
-                <div className="w-5/6 h-5/6 rounded-full overflow-hidden grid grid-cols-2 gap-2">
-                  <img 
-                    src="/lovable-uploads/ad0e3b1f-b21a-4313-a469-1e5d12598a56.png" 
-                    alt="イラスト1" 
-                    className="w-full h-full object-cover"
-                  />
-                  <img 
-                    src="/lovable-uploads/130c345c-baf4-4857-9307-ee3a8125496d.png" 
-                    alt="イラスト2" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/edb915ba-c310-422e-b583-293b0ec72539.png" 
+                alt="あぽろ" 
+                className="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl z-10 transition-all duration-300 hover:scale-105"
+              />
+              <div className="absolute inset-0 w-full h-full bg-apollo-primary rounded-full transform translate-x-4 translate-y-4"></div>
             </div>
           </div>
         </div>
@@ -60,3 +54,4 @@ export default function Hero() {
     </section>
   );
 }
+

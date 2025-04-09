@@ -1,3 +1,4 @@
+
 import { CheckCircle2 } from 'lucide-react';
 
 type SkillCategory = {
@@ -11,16 +12,15 @@ type SkillCategory = {
 export default function Skills() {
   const skillCategories: SkillCategory[] = [
     {
-      title: "AIモデル/API",
+      title: "AI モデル / API",
       skills: [
-        { name: "ChatGPT", level: 5 },
+        { name: "GPT-4 / GPT-3.5", level: 5 },
         { name: "Claude", level: 4 },
-        { name: "Cursor", level: 3 },
-        { name: "Devin", level: 3 },
-        { name: "Mastra", level: 3 },
-        { name: "Manus", level: 3 },
-        { name: "Dify", level: 3 },
-        { name: "Midjourney", level: 4 }
+        { name: "Gemini", level: 3 },
+        { name: "Stable Diffusion", level: 4 },
+        { name: "DALL-E 3", level: 4 },
+        { name: "Midjourney", level: 3 },
+        { name: "ElevenLabs", level: 3 }
       ]
     },
     {
