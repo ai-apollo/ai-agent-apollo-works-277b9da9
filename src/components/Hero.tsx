@@ -36,13 +36,13 @@ export default function Hero() {
               <div className="relative z-10 w-full h-full flex items-center justify-center">
                 <div className="w-5/6 h-5/6 rounded-full overflow-hidden grid grid-cols-2 gap-2">
                   <img 
-                    src="/lovable-uploads/0d1ac4c7-4c77-4d2f-9e7b-b3a0ba0bb6b2.png" 
+                    src="/lovable-uploads/ad0e3b1f-b21a-4313-a469-1e5d12598a56.png" 
                     alt="イラスト1" 
                     className="w-full h-full object-cover"
                   />
                   <img 
-                    src="/lovable-uploads/photo-1582562124811-c09040d0a901.jpeg" 
-                    alt="猫の画像" 
+                    src="/lovable-uploads/130c345c-baf4-4857-9307-ee3a8125496d.png" 
+                    alt="イラスト2" 
                     className="w-full h-full object-cover"
                   />
                 </div>
