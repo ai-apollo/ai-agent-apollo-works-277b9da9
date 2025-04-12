@@ -1,4 +1,3 @@
-
 import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
@@ -7,16 +6,15 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
-              <span className="block">AIで、</span>
-              <span className="block">あなたの</span>
-              <span className="text-apollo-primary block">「面倒」</span>
-              <span className="block">を自動化します。</span>
+            <h1 className="font-bold leading-tight mb-8 tracking-tighter">
+              <span className="block text-3xl sm:text-4xl md:text-5xl mb-2">AIであなたの<span className="text-apollo-primary">「面倒」</span>を</span>
+              <span className="block text-3xl sm:text-4xl md:text-5xl">自動化します</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              吸って吐いたら<span className="highlight-text">コンテンツまで</span>に取り組む 
-              非エンジニア | 開発初心者でも<span className="highlight-text">エージェントで完全自動化</span>めざす | 
-              「AIの社」を運営｜「生成AIを学ぶなら漫画から」出版
+            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl tracking-tight">
+              考えるだけで実行できる仕組みを実現。<br />
+              <span className="text-apollo-primary font-bold">面倒</span>はエージェントに、あなたは<span className="text-apollo-primary font-bold">構想</span>だけすればいい<br />
+              初心者でも実装できる仕組みを設計｜「AIの社」運営<br />
+              技術より"感覚" 才能より"<span className="highlight-text">構造</span>"が作り出す。
             </p>
             <div className="flex flex-wrap gap-4">
               <a 

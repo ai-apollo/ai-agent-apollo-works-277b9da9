@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Play, ExternalLink, Tag } from 'lucide-react';
 
@@ -22,39 +21,21 @@ export default function Works() {
   const works: Work[] = [
     {
       id: 1,
-      title: "GPT-4を活用した営業資料の自動生成",
-      description: "クライアントのニーズに合わせて、提案資料を自動的に生成するシステムを構築。GPT-4とMakeを連携させることで、手作業では数時間かかる資料作成を数分に短縮しました。",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80",
+      title: "対話内容を\"そのまま可視化・解析\"するAIアプリの開発",
+      description: "クライアントの音声ファイルをアップロードするだけで、AIが一瞬でテキスト化し、会話の傾向・強み・改善点までを自動で分析。「言葉の流れ」を構造として捉えることで、サービス改善に直結する\"実用型フィードバックループ\"を構築しました。",
+      videoUrl: "https://www.youtube.com/embed/XwVqLWnerFo",
+      thumbnail: "https://img.youtube.com/vi/XwVqLWnerFo/maxresdefault.jpg",
       category: ['automation'],
-      tools: ['GPT-4', 'Make (Integromat)', 'Google Workspace API']
+      tools: ['GPT-4o', 'claude3.7sonnet', 'cursor']
     },
     {
       id: 2,
-      title: "AIキャラクターによるコンテンツ制作の効率化",
-      description: "オリジナルAIキャラクターを設定し、YouTubeやブログ用のコンテンツを半自動で生成するワークフローを構築。企画から執筆、編集までの工程を大幅に効率化しました。",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80",
-      category: ['content'],
-      tools: ['Claude', 'Stable Diffusion', 'ElevenLabs']
-    },
-    {
-      id: 3,
-      title: "AIの社コミュニティ運営の自動化",
-      description: "コミュニティ運営に関わる定型業務（メンバー管理、イベント告知、FAQ対応など）をAIエージェントで自動化。運営の負担を軽減しながら、メンバー満足度を向上させました。",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
-      category: ['community', 'automation'],
-      tools: ['GPT-4', 'Zapier', 'Discord API']
-    },
-    {
-      id: 4,
-      title: "漫画で学ぶAI入門コンテンツの制作",
-      description: "「生成AIを学ぶなら漫画から」出版に向けた、AIによる漫画制作補助システムを構築。ストーリーボード作成からラフ画生成まで、AIを活用した効率的な制作フローを実現しました。",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80",
-      category: ['content'],
-      tools: ['ChatGPT', 'Stable Diffusion', 'ComicAI']
+      title: "SNS投稿を\"動く流れ\"として設計するブラウザ自動化ツール",
+      description: "複数のSNSにまたがる投稿・管理作業を、ブラウザ操作とスクレイピング技術で完全自動化。GPTで生成された原稿を自動で最適化し、投稿予約・タグ分析・反応収集までを\"思考ゼロ\"で実行。投稿者は、ただVIBEを流し込むだけでいい──そんな未来の情報発信構造を実装しました。",
+      videoUrl: "https://www.youtube.com/embed/fwmRZenEd8k",
+      thumbnail: "https://img.youtube.com/vi/fwmRZenEd8k/maxresdefault.jpg",
+      category: ['automation', 'content'],
+      tools: ['Playwright', 'GPT-4', 'Python']
     }
   ];
 
@@ -75,7 +56,7 @@ export default function Works() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Works</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            実際の動画と共に、AIを活用したプロジェクト事例をご紹介します。非エンジニアならではの視点で、どのような課題をどう解決したかをご覧ください。
+            プロジェクト事例をご紹介します。
           </p>
           <div className="w-20 h-1 bg-apollo-primary mx-auto mt-4"></div>
         </div>
